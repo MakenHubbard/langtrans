@@ -1,0 +1,75 @@
+
+body {
+    background: lightslategray;
+}
+
+.instruction {
+    border: 1px solid black;
+}
+
+textarea {
+    background: slategrey;
+}
+
+h1 {
+
+}
+
+h2 {
+    font-weight: 1000;
+    margin-left: 5px;
+}
+
+ol {
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    font-size: 20px;
+    width: 450px;
+    margin-left: 25px;
+    border: 1px solid black;
+}
+
+#secondli {
+    border:1px solid black;
+
+}
+
+.trans-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  space-around;
+    padding: 5px;
+    margin: 10px;
+}
+
+.userInput {
+    
+}
+
+#trans-btn {
+    align-self: center;
+    margin-top: 80px;
+}
+
+.output {
+    
+}
+
+.butt {
+    border-radius: 15px;
+    background-color: black ;
+    font-size: 18px;
+    color: forestgreen
+}
+
+.butt:focus {
+    border-radius: 15px;
+    background-color: forestgreen;
+    font-size: 18px;
+    color: black;
+
+}
+
+
+
+

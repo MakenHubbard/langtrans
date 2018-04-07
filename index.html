@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,38 @@
     <title>Twerk Translator</title>
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
     <h1>Twerk Translator</h1>
     <div class="instruction">
         <h2>In case it's not self-explainatory:</h2>
         <ol>
-            <li><p>If you want to translate, lets say, only the words merry, christmas, and, happy, new, and year, then you would just simply type them in to the first box.</p></li> <li><p id="secondli">Then, select the one of the three languages above the second box and click the translate button to display the translated text.</p></li>
-        </ol>   
+            <li>
+                <p>If you want to translate, lets say, only the words merry, christmas, and, happy, new, and year, then you
+                    would just simply type them in to the first box.</p>
+            </li>
+            <li>
+                <p id="secondli">Then, select the one of the three languages above the second box
+                    to translate the text.</p>
+            </li>
+        </ol>
     </div>
     <div class="transMain">
-        <section class="userInput">
-            <textarea id="inputText" name="textarea" rows="10" cols="50"></textarea>
-        </section>
-        <section class="output">
-            <article>
-                <button class="butt"id="chinese-btn" type="button" name="cbtn">Chinese</button>
-                <button class="butt" id="french-btn" type="button" name="fbtn">French</button>
-                <button class="butt" id="spanish-btn" type="button" name="sbtn">Spanish</button>
-            </article>
-            <textarea id="outputText" name="textarea" rows="10" cols="50"></textarea>
-        </section>
-</div>
-<script src="main.js"></script>
+        <div class="goodStuff">
+            <section class="userInput">
+                <textarea id="inputText" name="textarea" rows="5" cols="45"></textarea>
+            </section>
+            <section class="output">
+                <article>
+                    <button class="butt" id="chinese-btn" type="button" name="cbtn">Chinese</button>
+                    <button class="butt" id="french-btn" type="button" name="fbtn">French</button>
+                    <button class="butt" id="spanish-btn" type="button" name="sbtn">Spanish</button>
+                </article>
+                <textarea id="outputText" name="textarea" rows="5" cols="45"></textarea>
+            </section>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
+
 </html>
